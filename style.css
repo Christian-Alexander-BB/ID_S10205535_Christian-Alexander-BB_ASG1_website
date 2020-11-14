@@ -1,0 +1,118 @@
+@font-face {
+    font-family: typeface;
+    src: url(simplifica_typeface.ttf)
+}
+
+.page-header {
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 2%;
+    font-size: 30px;
+    font-family: 'typeface', 'serif';
+    letter-spacing: 0.3em;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'typeface', 'serif';
+    letter-spacing: 0.2em;
+}
+
+.container_1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+p {
+    color: #f2f2f2;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 1.7;
+}
+
+h1, h2 {
+    color: #b3e3ff;
+}
+
+#mission {
+    text-align: center;
+    padding: 10%;
+    padding-top: 0%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+#mission em{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 1.6;
+    padding: 0%;
+    text-align: left;
+}
+
+body {
+    background-color: black;
+}
+
+.split {
+    display: flex;
+    flex-basis: 46%;
+    flex-direction: column;
+    padding: 2%;
+    /* border: 2px solid red; */
+}
+
+.split img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        padding-left: 4%;
+    }
+
+    .split {
+        display: flex;
+        flex-grow: inherit;
+        text-align: left;
+        flex-basis: 100%;
+        padding: 0%;
+        /* border: 3px solid red; */
+    }
+
+    .split img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .page-header {
+        padding-top: 30%;
+        padding-bottom: 20%;
+    }
+
+    #mission em {
+        font-size: 30px;
+    }
+
+    #mission {
+        padding: 2%;
+        padding-bottom: 70%;
+    }
+
+    .page-header {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+
+
+}
